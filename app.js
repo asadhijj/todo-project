@@ -45,7 +45,7 @@ var q3 =prompt("should we delete it ? (Y/N)");
 var myArr = [q1, q2, q3];
 
 for (let i=0; i<=myArr.length-1;i++) {
-    if ( myArr[i] !==0){
+    if ( myArr[i] ==0){
         myArr[i]="invalid";
         alert ("invalid");
           
